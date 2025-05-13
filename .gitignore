@@ -1,1 +1,11 @@
+# ArcGIS Pro project files
+# GpMessages/**
+# ImportLog/**
+# Index/**
+# TsunamiHazardAssessment.gdb/**
+# TsunamiHazardAssessment.aprx
+# TsunamiHazardAssessment.atbx
+
+# This folder contains many gigabytes of data, so it can't be version controlled
+# Use scripts to fetch and generate this data as needed
 LabData/**

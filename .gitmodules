@@ -1,0 +1,3 @@
+[submodule "submodules/VirtualQuake"]
+	path = submodules/VirtualQuake
+	url = https://github.com/geodynamics/vq.git

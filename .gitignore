@@ -1,4 +1,5 @@
 # ArcGIS Pro project files
+.backups/
 # GpMessages/**
 # ImportLog/**
 # Index/**

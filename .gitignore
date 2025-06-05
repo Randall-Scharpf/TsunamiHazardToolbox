@@ -1,9 +1,9 @@
 # ArcGIS Pro project files
 .backups/
-# GpMessages/**
+GpMessages/**
 # ImportLog/**
 # Index/**
-# TsunamiHazardAssessment.gdb/**
+TsunamiHazardAssessment.gdb/**
 # TsunamiHazardAssessment.aprx
 # TsunamiHazardAssessment.atbx
 

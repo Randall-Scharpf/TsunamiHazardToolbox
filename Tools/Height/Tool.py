@@ -27,4 +27,6 @@ slip_angle = arcpy.GetParameter(5)
 sim = FluidSimulation.FluidSimulation(topography)
 sim.add_timestep(60)
 
-raise ValueError((sim.get_elevation(0, 0), sim.get_wave_elevation(0, 0)))
+point = GeospatialFlattener.parse_point(epicenter)
+
+raise ValueError((sim.get_elevation(point), sim.get_wave_elevation(point)))

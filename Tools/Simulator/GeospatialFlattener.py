@@ -39,6 +39,6 @@ class BathyTopoMercator:
 def parse_point(point_layer):
     projected_point_layer = arcpy.management.Project(point_layer, get_unused_fc_name(), arcpy.SpatialReference(4326))
     with arcpy.da.SearchCursor(projected_point_layer, ["SHAPE@XY"]) as cursor:
-        point = next(cursor)
+        point_xy = next(cursor)[0]
     arcpy.management.Delete(projected_point_layer)
-    return point[0]
+    return arcpy.Point(point_xy[0], point_xy[1])
